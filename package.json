@@ -1,0 +1,35 @@
+{
+  "name": "aws-lambda-router-await",
+  "version": "1.0",
+  "description": "AWS lambda router with await",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero14/aws-lambda-router-await.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "apigateway",
+    "any",
+    "sns",
+    "router",
+    "routing",
+    "await",
+    "handler"
+  ],
+  "author": "Joel Pacheco",
+  "Source reference":"Christian Gohlke <christian.gohlke@spring-media.de> (https://www.welt.de)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zero14/aws-lambda-router-await/issues"
+  },
+  "homepage": "https://github.com/zero14/aws-lambda-router-await#readme",
+  "devDependencies": {
+    "proxyquire": "2.1.0"
+  }
+}
