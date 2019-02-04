@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-router-await",
-  "version": "1.0",
+  "version": "0.1.0",
   "description": "AWS lambda router with await",
   "main": "index.js",
   "types": "index.d.ts",
