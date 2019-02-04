@@ -2,6 +2,12 @@
 [![npm version](https://badge.fury.io/js/aws-lambda-router-await.svg)](https://badge.fury.io/js/aws-lambda-router-await)
 [![dependencies](https://github.com/zero14/aws-lambda-router-await.svg)](https://www.npmjs.com/package/aws-lambda-router-await)
 
+#Importante.
+
+Las fuentes reales se encuentra en el repositorio https://github.com/spring-media/aws-lambda-router , la cual se ha tomado las fuentes para modificarlo y adaptarlo a la necesidad que se tenía de usar await como retorno de promesas. Asimismo, cualquier cambio o aportación que deseen realizar sería recomendable ir a la fuentes origen del proyecto. Además, no se esta implementando pruebas unitarias.
+
+Gracias.
+
 # aws-lambda-router-await
 
 A small library for [AWS Lambda](https://aws.amazon.com/lambda/details) providing routing for [API Gateway](https://aws.amazon.com/api-gateway),
