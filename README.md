@@ -4,7 +4,7 @@
 
 #Importante.
 
-Las fuentes reales se encuentra en el repositorio https://github.com/spring-media/aws-lambda-router , la cual se ha tomado las fuentes para modificarlo y adaptarlo a la necesidad que se tenía de usar await como retorno de promesas. Asimismo, cualquier cambio o aportación que deseen realizar sería recomendable ir a la fuentes origen del proyecto. Asimismo, no se esta implementando pruebas unitarias.
+Las fuentes reales se encuentra en el repositorio https://github.com/spring-media/aws-lambda-router , la cual se ha tomado las fuentes para modificarlo y adaptarlo a la necesidad que se tenía de usar await como retorno de promesas. Asimismo, cualquier cambio o aportación que deseen realizar sería recomendable ir a la fuentes origen del proyecto. Además, no se esta implementando pruebas unitarias.
 
 Gracias.
 
