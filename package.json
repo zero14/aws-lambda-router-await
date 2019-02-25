@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-router-await",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AWS lambda router with await",
   "main": "index.js",
   "types": "index.d.ts",
@@ -23,7 +23,7 @@
     "handler"
   ],
   "author": "Joel Pacheco",
-  "Source reference":"Christian Gohlke <christian.gohlke@spring-media.de> (https://www.welt.de)",
+  "Source reference": "Christian Gohlke <christian.gohlke@spring-media.de> (https://www.welt.de)",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/zero14/aws-lambda-router-await/issues"
