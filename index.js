@@ -21,10 +21,16 @@ function handler(routeConfig) {
                 //   - returns promise: when the promise is resolved, this is taken as the result of processing the event
                 const result = eventProcessorMapping.get(eventProcessorName)(routeConfig[eventProcessorName], event, context);
                 if (result) {
-                    // be resilient against a processor returning a value instead of a promise:
-                    return await result;
-                    
+                    let value = await result;
+                    console.log("Value result: ", value)
+                    if(value){
+                        console.log("(result.toString() != 'Promise { null }'")
+                        return value;
+                    } else {
+                        console.log("No paso result.toString() != 'Promise { null }")
+                    }
                 } else {
+                    console.log("paso else result...")
                     if (routeConfig.debug) {
                         console.log("Event processor couldn't handle request.")
                     }
